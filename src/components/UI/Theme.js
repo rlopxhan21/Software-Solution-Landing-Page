@@ -1,9 +1,20 @@
-import { green, red } from "@mui/material/colors";
-import { createTheme, rgbToHex } from "@mui/material/styles";
+import { createTheme } from "@mui/material/styles";
+
+const lopGreen = "#0a7029";
+const lopYellow = "#fede00";
+const lopYGreen = "#c8df52";
+// const lopMint = "#dbe8d8";
 
 export const appTheme = createTheme({
   palette: {
-    primary: green,
-    secondary: red,
+    primary: {
+      main: lopGreen,
+    },
+    secondary: {
+      main: lopYellow,
+    },
+  },
+  text: {
+    primary: lopYGreen,
   },
 });
