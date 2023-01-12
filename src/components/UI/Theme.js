@@ -1,20 +1,20 @@
 import { createTheme } from "@mui/material/styles";
 
-const lopGreen = "#0a7029";
-const lopYellow = "#fede00";
-const lopYGreen = "#c8df52";
-// const lopMint = "#dbe8d8";
+const arcBlue = "#0B72B9";
+const arcOrange = "#e67700";
+const arcGrey = "#868686";
 
 export const appTheme = createTheme({
   palette: {
+    common: {
+      blue: arcBlue,
+      orange: arcOrange,
+    },
     primary: {
-      main: lopGreen,
+      main: arcBlue,
     },
     secondary: {
-      main: lopYellow,
+      main: arcOrange,
     },
-  },
-  text: {
-    primary: lopYGreen,
   },
 });
