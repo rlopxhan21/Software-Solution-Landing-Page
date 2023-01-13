@@ -8,8 +8,9 @@ import { appTheme } from "./components/UI/Theme";
 import HomePage from "./components/pages/HomePage";
 import ServicesPage from "./components/pages/ServicesPage";
 import ProjectsPage from "./components/pages/ProjectsPage";
-import LearnPage from "./components/pages/LearnPage";
 import GetAQuotePage from "./components/pages/GetAQuotePage";
+import AboutUsPage from "./components/pages/AboutUsPage";
+import ContactUsPage from "./components/pages/ContactUsPage";
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
         <Route path="/services" element={<ServicesPage />} />
 
         <Route path="/projects" element={<ProjectsPage />} />
-        <Route path="/learn" element={<LearnPage />} />
+        <Route path="/aboutus" element={<AboutUsPage />} />
+        <Route path="/contactus" element={<ContactUsPage />} />
         <Route path="/getaquote" element={<GetAQuotePage />} />
       </Routes>
     </ThemeProvider>
