@@ -9,7 +9,6 @@ export const appTheme = createTheme({
     common: {
       blue: arcBlue,
       orange: arcOrange,
-      white: "#fff",
     },
     primary: {
       main: arcBlue,
